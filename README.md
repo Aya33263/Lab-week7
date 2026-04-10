@@ -17,7 +17,7 @@ This application was developed to satisfy the following institutional needs:
 
 Follow these steps to get the project running on your local machine:
 
-## 1. Prerequisites
+### 1. Prerequisites
 Ensure you have **Python 3.x** installed. You can check your version by running:
 ```bash
 python --version
