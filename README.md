@@ -17,32 +17,31 @@ This application was developed to satisfy the following institutional needs:
 
 Follow these steps to get the project running on your local machine:
 
-### 1. Prerequisites
+## 1. Prerequisites
 Ensure you have **Python 3.x** installed. You can check your version by running:
 ```bash
 python --version
 
 # 2. Clone the Repository
 Download the project files to your computer
-
-### 3. Run the Application
+# 3. Run the Application
 Start the interactive menu-driven system
 --------------------------------------------------
 🏗️ Technical Architecture
 The system is designed with a modular approach to separate data entry from data processing.
 
  Core Components
-The List (students): Acts as a volatile database storing student dictionaries.
+1 # The List (students): Acts as a volatile database storing student dictionaries.
 
-The Class (AttendanceSystem): The engine that handles all logic.
+2 # The Class (AttendanceSystem): The engine that handles all logic.
 
-add_student(): Uses Dictionaries to map keys (ID, Name, Course) to user input.
+3 # add_student(): Uses Dictionaries to map keys (ID, Name, Course) to user input.
 
-update_student(): Implements a Linear Search algorithm to find and modify records.
+4 # update_student(): Implements a Linear Search algorithm to find and modify records.
 
-show_average(): Uses Aggregators to calculate mean percentages
+5 # show_average(): Uses Aggregators to calculate mean percentages
 
-#💻Usage Guide
+ 💻Usage Guide
 1-Add Student // Enter details; system assigns a unique ID from 100-300.
 2-Display Records // Prints a formatted roster of all registered students.
 3-Update Record // Enter the Student ID to modify course or attendance data.
