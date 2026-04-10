@@ -22,16 +22,16 @@ Ensure you have **Python 3.x** installed. You can check your version by running:
 ```bash
 python --version
 
-2. Clone the Repository
+### 2. Clone the Repository
 Download the project files to your computer
 
-3. Run the Application
+### 3. Run the Application
 Start the interactive menu-driven system
 
-🏗️ Technical Architecture
+# 🏗️ Technical Architecture
 The system is designed with a modular approach to separate data entry from data processing.
 
-4. Core Components
+ Core Components
 The List (students): Acts as a volatile database storing student dictionaries.
 
 The Class (AttendanceSystem): The engine that handles all logic.
@@ -42,14 +42,14 @@ update_student(): Implements a Linear Search algorithm to find and modify record
 
 show_average(): Uses Aggregators to calculate mean percentages
 
-💻Usage Guide
+# 💻Usage Guide
 1-Add Student // Enter details; system assigns a unique ID from 100-300.
 2-Display Records // Prints a formatted roster of all registered students.
 3-Update Record // Enter the Student ID to modify course or attendance data.
 4-Calculate Average // View the overall performance of the entire institute.
 5-Exit // Safely close the application.
 
-📝 Programming Concepts Demonstrated
+# 📝 Programming Concepts Demonstrated
 Encapsulation: Keeping all attendance logic within a dedicated class.
 
 Data Mapping: Using key-value pairs for efficient data retrieval.
@@ -58,7 +58,7 @@ Randomization: Using the random library for unique ID seeding.
 
 Input Validation: Ensuring float and integer types for mathematical calculations.
 
-🛠️ Tools Used
+# 🛠️ Tools Used
 Language: Python 3.x
 
 Version Control: GitHub
