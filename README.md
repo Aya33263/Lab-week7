@@ -22,13 +22,13 @@ Ensure you have **Python 3.x** installed. You can check your version by running:
 ```bash
 python --version
 
-### 2. Clone the Repository
+# 2. Clone the Repository
 Download the project files to your computer
 
 ### 3. Run the Application
 Start the interactive menu-driven system
-
-# 🏗️ Technical Architecture
+--------------------------------------------------
+🏗️ Technical Architecture
 The system is designed with a modular approach to separate data entry from data processing.
 
  Core Components
@@ -42,7 +42,7 @@ update_student(): Implements a Linear Search algorithm to find and modify record
 
 show_average(): Uses Aggregators to calculate mean percentages
 
-# 💻Usage Guide
+#💻Usage Guide
 1-Add Student // Enter details; system assigns a unique ID from 100-300.
 2-Display Records // Prints a formatted roster of all registered students.
 3-Update Record // Enter the Student ID to modify course or attendance data.
